@@ -1,0 +1,31 @@
+#vid {
+    display: flex;
+    color: brown;
+    border: 10px solid pink;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#videocontainer {
+    border: 10px solid pink;
+}
+
+.vid {
+    flex: 1;
+}
+
+.vidtwo {
+    flex: 1;
+}
+
+.vidthree {
+    flex: 1;
+}
+
+.vidfour {
+    flex: 1;
+}
+
+.me {
+    border: 10px solid pink;
+}
