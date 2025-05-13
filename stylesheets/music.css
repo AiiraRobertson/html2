@@ -1,0 +1,60 @@
+/* Apply styles to the entire page */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: seagreen;
+  color: white;
+}
+
+/* Style the header */
+.header,
+h1,
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.header,
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Style the login form */
+.login-form {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(60, 179, 113);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style the sign-up form */
+.signup-form {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(72, 209, 138);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Style buttons */
+button {
+  background-color: white;
+  color: seagreen;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: lightgray;
+}
